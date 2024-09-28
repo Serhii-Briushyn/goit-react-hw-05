@@ -1,0 +1,38 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.castItem {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 200px;
+}
+
+.castImage {
+  border-radius: 8px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.01em;
+  color: #f9f9f9;
+}
+
+.character {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #9ca4ab;
+}

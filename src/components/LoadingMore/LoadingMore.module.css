@@ -1,0 +1,6 @@
+.loading {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}

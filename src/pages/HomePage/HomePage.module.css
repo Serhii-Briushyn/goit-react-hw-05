@@ -1,0 +1,16 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  padding: 32px;
+  align-items: center;
+}
+
+.title {
+  grid-column: 1;
+  align-self: start;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: #f9f9f9;
+}
