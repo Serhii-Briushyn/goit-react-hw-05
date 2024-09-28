@@ -6,7 +6,7 @@ function NotFoundPage() {
     <div className={styles.container}>
       <h1 className={styles.message}>Sorry, but the page is not found...</h1>
       <Link to="/" className={styles.link}>
-        Home
+        Back home
       </Link>
     </div>
   );

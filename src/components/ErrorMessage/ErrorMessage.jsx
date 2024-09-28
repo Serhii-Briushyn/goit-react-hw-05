@@ -2,7 +2,9 @@ import styles from "./ErrorMessage.module.css";
 
 function ErrorMessage() {
   return (
-    <p className={styles.error}>Something went wrong! Please try again.</p>
+    <div className={styles.container}>
+      <p className={styles.message}>Something went wrong! Please try again.</p>
+    </div>
   );
 }
 

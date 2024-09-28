@@ -19,10 +19,14 @@
   background: #1a161f;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.57143;
+  line-height: 1.57;
   letter-spacing: 0.01em;
-  color: #9ca4ab;
+  color: #f9f9f9;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input::placeholder {
+  color: #9ca4ab;
 }
 
 .input:hover {

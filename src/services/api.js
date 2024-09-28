@@ -1,10 +1,12 @@
 import axios from "axios";
 
 axios.defaults.baseURL = "https://api.themoviedb.org/3/";
+const API_KEY =
+  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYmQ4Y2EyMThhMWFmYTFhYWNhNzJjZTliYmMwMjlmOCIsIm5iZiI6MTcyNzI4NTMwMC4xNTY0MzcsInN1YiI6IjY2ZjQzYmY3Njg2MjhhMmVjMDBkZmI5YSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qxjaSLMRulN2n_dQHgYjlbUEYFzUOyG1CQfomivoEIw";
 
 const options = {
   headers: {
-    Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
+    Authorization: `Bearer ${API_KEY}`,
   },
 };
 
